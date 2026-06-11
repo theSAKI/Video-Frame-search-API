@@ -21,11 +21,10 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import os
-
 import logging
 
 from video_utils import extract_frames
-from .vector_utils import add_to_db, compute_feature_vector, search_similar
+from vector_utils import add_to_db, compute_feature_vector, search_similar
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
