@@ -1,0 +1,25 @@
+# FastAPI Video Frame Search - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi
+
+# ASGI server
+uvicorn
+
+# Computer vision and image processing
+opencv-python
+
+# Numerical computing
+numpy
+
+# Machine learning utilities
+scikit-learn
+
+# File upload support
+python-multipart
+
+# HTTP requests (for testing)
+requests
+
+qdrant-client
