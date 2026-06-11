@@ -97,12 +97,6 @@ Vector Indexing: HNSW algorithm via Qdrant
 Memory Management: Temporary file cleanup
 Async Operations: Non-blocking I/O operations
 
-
-
-GitHub: @faris-sait
-LinkedIn: https://www.linkedin.com/in/farissait
-Email: farissait@gmail.com
-
 🙏 Acknowledgments
 
 FastAPI - Modern web framework
