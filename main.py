@@ -1,7 +1,6 @@
 """
 Video Frame Search API using FastAPI
 
-Author: Mohammed Faris Sait
 
 This is the main FastAPI app that:
 - Accepts video uploads
@@ -25,7 +24,7 @@ import os
 
 import logging
 
-from .video_utils import extract_frames
+from video_utils import extract_frames
 from .vector_utils import add_to_db, compute_feature_vector, search_similar
 
 logging.basicConfig(level=logging.INFO)
